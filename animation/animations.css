@@ -1,0 +1,418 @@
+
+#bo
+{
+
+	color:#00CED2;
+	animation-name: sizing;
+	animation-duration: 3.8s;
+animation-iteration-count: infinite;
+font-size: 0;
+font-weight: bolder;
+
+
+}
+
+@keyframes sizing
+{
+
+
+25%
+{
+	font-size: 16px; 
+}
+
+50%
+{
+	font-size: 48px;
+}
+
+
+55%,100%
+{
+	font-size: 38px;
+}
+
+
+}
+
+
+
+.ball
+{
+	width:2%;
+	height:40px;
+	background-color: red;
+float: left;
+	border-radius: 100%;
+margin-left: 0.5%
+}
+
+.one
+{
+	animation-name: onee;
+animation-duration: 1.25s;
+	background-color: white;
+animation-iteration-count: infinite;
+animation-delay: 0.4s;
+
+}
+
+
+
+.two ,.three
+{
+	animation-name: twoo;
+animation-duration: 1.25s;
+	background-color: white;
+animation-iteration-count: infinite;
+animation-delay: 0.3s;
+}
+
+
+.four ,.five
+{
+	animation-name: four;
+	animation-duration: 1.25s;
+	background-color: white;
+
+animation-iteration-count: infinite;
+animation-delay: 0.2s;
+}
+
+.six
+{
+	animation-name: six;
+	animation-duration: 1.25s;
+	background-color: white;
+	animation-iteration-count: infinite;
+animation-delay: 0.1s;
+}
+
+
+
+@keyframes onee
+{
+
+
+9%
+{
+margin-top: 2%;
+
+	background-color: #ADEDEE;
+}
+
+25%
+{
+	margin-top: 5%;
+	background-color: #ADEDEE;
+}
+
+40%
+{
+	margin-top: 9%;
+	background-color: #ADEDEE;
+}
+
+50%,70%,80%
+{
+	margin-top: 11%;
+		background-color: #ADEDEE;
+	
+
+}
+
+60%,90%
+{
+	margin-top: 11.5%;
+		background-color: #ADEDEE;
+	
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes twoo
+{
+
+
+9%
+{
+margin-top: 2%;
+
+	background-color: #FC7F6F;
+
+}
+
+25%
+{
+	margin-top: 5%;
+	background-color: #FC7F6F;
+}
+
+50%
+{
+	margin-top: 9%;
+	background-color: #FC7F6F;
+}
+
+50%,70%,80%
+{
+	margin-top: 11%;
+			background-color: #FC7F6F;
+	
+
+}
+
+60%,90%
+{
+	margin-top: 11.5%;
+		background-color: #FC7F6F;
+	
+
+}
+}
+
+
+
+
+
+
+@keyframes four
+{
+
+
+9%
+{
+margin-top: 2%;
+background-color: red;
+}
+
+25%
+{
+	margin-top: 5%;
+background-color: red;
+}
+
+50%
+{
+	margin-top: 9%;
+
+	background-color: red;
+}
+
+50%,70%,80%
+{
+	margin-top: 11%;
+		
+	background-color: red;
+
+}
+
+60%,90%
+{
+	margin-top: 11.5%;
+	
+	
+background-color: red;
+}
+}
+
+@keyframes six
+{
+
+
+9%
+{
+margin-top: 2%;
+background-color: blue;
+}
+
+25%
+{
+	margin-top: 5%;
+		background-color: blue;
+}
+
+50%
+{
+	margin-top: 9%;
+	background-color: blue;
+}
+
+
+50%,70%,80%
+{
+	margin-top: 11%;
+		background-color: blue;
+	
+
+}
+
+60%,90%
+{
+	margin-top: 11.5%;
+	background-color: blue;
+	
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+.heart
+{
+	margin:auto;
+	animation-name: beat;
+width:20%;
+	animation-iteration-count: infinite;
+	animation-duration: 2.3s;
+}
+
+@keyframes beat
+{
+	1%
+	{
+		width:21%;
+	}
+
+	12%
+	{
+		width:20%;
+	}
+
+	23%
+	{
+width:22%;
+	}
+100%
+{
+	width:20%;
+}
+
+
+}
+
+
+#content 
+{
+
+	width:44%;
+	margin:auto;
+	text-align: center;
+	
+}
+
+#content h2
+{
+	color:#E0D7D3;
+	margin-bottom: 0;
+	background-color: white;
+	animation-name: red
+}
+.blue
+{
+background-color: #00CED2;
+padding:0.2%;
+width:70%;
+margin:auto;
+color:#FEFEFE;
+	transition:1s;
+	
+	
+}
+
+.tomato
+{
+	background-color:#FF623F;
+	padding:0.2%;
+width:70%;
+margin:auto;
+	color:#FEFEFE;
+	margin-top: 4%;
+
+}
+#content:hover > .blue
+{
+
+	padding: 2%;
+
+}
+
+@keyframes test
+{
+	50%
+	{
+		padding: 2%;
+	}
+}
+#content:hover > .tomato
+{
+	animation-name: test;
+	animation-duration: 2s;
+}
+
+
+
+
+
+.clock
+{
+	width:7%;
+	background-color: blue;
+	border-radius: 100%;
+	height:80px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.sign
+{
+	width:3%;
+	background-color: black;
+	height:70px;
+	animation-name: rotate;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+margin-top: 20%;
+margin: auto;
+	}
+
+@keyframes rotate
+{
+	from 
+	{
+		transform: rotate(0deg);
+	}
+
+	to 
+	{
+		transform: rotate(360deg);
+	}
+}
+
+
+.clock:hover >.sign
+{
+	animation-play-state: paused;
+}
